@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: blue;
+/*
+	background: url(https://images.woodmagazine.mdpcdn.com/sites/default/files/styles/scale_1500_1500/public/image/2016/11/30/WD318111.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+}
+
+h1 {
+	color: rgba(255,0,0,0.31);
+	border: 5px dashed #A0A924;
+}
+
+li {
+	background: #B13638;
+}
+
+h4 {
+	color: purple;
+}

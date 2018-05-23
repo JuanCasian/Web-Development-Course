@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Demo</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="name">First Name:</label>
+		<input id="name" type="text" placeholder="John" required>
+		<label for="lastname">Last Name:</label>
+		<input type="text" id="lastname" placeholder="Smith" required>
+		<br>
+		
+		<label for="Male">Male</label>
+		<input type="radio" name="gender" id="Male">
+		<label for="Female">Female</label>
+		<input type="radio" name="gender" id="Female">
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other">
+		<br>
+		
+		<label for="Email">Email:</label>
+		<input type="email" placeholder="Your Email" required>
+		<label for="password">Password:</label>
+		<input type="password" pattern=".{5,10}" required title ="Passqord requires 5 to 10 char">
+		<br>
+		
+		<label for="birthday">Birthday:</label>
+		<select name="birthday" id="birthday">
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+		</select>
+		
+		<select name="dia" id="dia">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		
+		<select name="year" id="year">
+			<option value="1998">1998</option>
+			<option value="1999">1999</option>
+			<option value="2000">2000</option>
+		</select>
+		<br>
+		
+		<label for="AgreeTerms">I agree to the terms and conditions</label>
+		<input type="checkbox" id="AgreeTerms">
+		<br>
+		
+		<input type="submit">
+		
+		
+	</form>
+	
+</body>
+</html>
+
+<!--<h1>Login</h1>-->
+	<!-- action - where the form send data to -->
+	<!-- method - what HTTP method does it uses(get/post) -->
+<!--
+	<form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+		<label for="username">Email</label>
+		<input id="username" name="username" type="email" placeholder="Username" required>
+		<label for="password">Password:</label>
+		<input id="password" name="password" type="password" placeholder="Password" required>
+		<input type="submit">
+	</form>
+	
+	<p>Do you prefer cats or dogs?</p>
+	<form>
+		<label for="Cats">Cats:</label>
+		<input type="radio" id="Cats" name="Petchoice" value="CAT">
+		<label for="Dogs">Dogs</label>
+		<input type="radio" id="Dogs" name="Petchoice" value="DOG">
+		
+		<p>What's your current mood?</p>
+		
+		<select name="color" id="color">
+			<option value="Happy">:)</option>
+			<option value="Sad">:(</option>
+		</select>
+		
+		<textarea name="userDef" rows="10" cols="50"></textarea>
+		
+		<button>Go!</button>
+	</form>-->

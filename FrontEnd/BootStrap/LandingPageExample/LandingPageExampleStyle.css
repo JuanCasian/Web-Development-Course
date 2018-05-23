@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	
+	background: url(https://images.unsplash.com/photo-1460551204960-763bc82b7d8f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=769ed0726a60f493001af5ba06fe930f&auto=format&fit=crop&w=2552&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+	color: white;
+/*
+	https://images.unsplash.com/photo-1517424788495-0d03ec42e244?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3306ac54f2a383f59b535242f4098cff&auto=format&fit=crop&w=2700&q=80
+*/
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+	font-weight: 900;
+	font-size: 7em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+html {
+	height: 100%;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+
+#SM {
+	font-size: 1.5em;
+}
